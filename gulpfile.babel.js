@@ -23,7 +23,7 @@ import autoprefixer from 'gulp-autoprefixer';
 import ejs from "gulp-ejs";
 import header from 'gulp-header';
 import replace from 'gulp-replace';
-
+import imagemin     from 'gulp-imagemin'
 
 
 
@@ -113,6 +113,11 @@ gulp.task('homeHtml', () => {
         .pipe(reload({ stream: true }))
 });
 
+
+gulp.task('img',() => gulp.src(`src/img/*`)
+    .pipe(imagemin())
+    .pipe(gulp.dest(`src/img2`))
+    .pipe(notify({ message: 'imgs task complete' })));
 
 
 // 静态服务器 + 监听 scss/html 文件

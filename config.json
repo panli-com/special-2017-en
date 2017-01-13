@@ -1,0 +1,17 @@
+{   
+    "start":"0112",
+    "0112": {
+        "id":"81",
+        "title": "",
+        "version":"0.0.1",
+        "author":"Julian",
+        "load": {
+            "css": ["./0112/src/scss/main.scss"],
+            "js": ["./0112/src/js/*.js"]
+        },
+        "build":{
+            "css":"81.css",
+            "js":"app.js"
+        }
+    }
+}

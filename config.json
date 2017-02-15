@@ -1,5 +1,19 @@
 {   
-    "start":"0112",
+    "start":"0215",
+    "0215": {
+        "id":"82",
+        "title": "Sports Is Good for Life",
+        "version":"0.0.1",
+        "author":"Julian",
+        "load": {
+            "css": ["./0215/src/scss/main.scss"],
+            "js": ["./0215/src/js/*.js"]
+        },
+        "build":{
+            "css":"82.css",
+            "js":"app.js"
+        }
+    },
     "0112": {
         "id":"81",
         "title": "",

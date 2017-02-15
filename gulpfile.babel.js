@@ -45,7 +45,7 @@ const banner = [
 
 gulp.task('ejs', () => gulp.src(`./${day}/templates/index.ejs`)
     .pipe(ejs({
-        title: pkg.description,
+        title: title,
         mincss: mincss,
         path: BuildPath,
         time: new Date().getTime()

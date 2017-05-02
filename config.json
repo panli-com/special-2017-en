@@ -1,45 +1,59 @@
-{   
-    "start":"0324",
-    "0324": {
-        "id":"83",
-        "title": "A Variety of Accessories",
-        "version":"0.0.1",
-        "author":"Julian",
-        "load": {
-            "css": ["./0324/src/scss/main.scss"],
-            "js": ["./0324/src/js/*.js"]
-        },
-        "build":{
-            "css":"83.css",
-            "js":"app.js"
-        }
+{
+  "start": "0502",
+  "0502": {
+    "id": "84",
+    "title": "Maternal Love",
+    "version": "0.0.1",
+    "author": "Julian",
+    "load": {
+      "css": ["./0502/src/scss/main.scss"],
+      "js": ["./0502/src/js/*.js"]
     },
-    "0215": {
-        "id":"82",
-        "title": "Sports Is Good for Life",
-        "version":"0.0.1",
-        "author":"Julian",
-        "load": {
-            "css": ["./0215/src/scss/main.scss"],
-            "js": ["./0215/src/js/*.js"]
-        },
-        "build":{
-            "css":"82.css",
-            "js":"app.js"
-        }
-    },
-    "0112": {
-        "id":"81",
-        "title": "",
-        "version":"0.0.1",
-        "author":"Julian",
-        "load": {
-            "css": ["./0112/src/scss/main.scss"],
-            "js": ["./0112/src/js/*.js"]
-        },
-        "build":{
-            "css":"81.css",
-            "js":"app.js"
-        }
+    "build": {
+      "css": "83.css",
+      "js": "app.js"
     }
+  },
+  "0324": {
+    "id": "83",
+    "title": "A Variety of Accessories",
+    "version": "0.0.1",
+    "author": "Julian",
+    "load": {
+      "css": ["./0324/src/scss/main.scss"],
+      "js": ["./0324/src/js/*.js"]
+    },
+    "build": {
+      "css": "83.css",
+      "js": "app.js"
+    }
+  },
+  "0215": {
+    "id": "82",
+    "title": "Sports Is Good for Life",
+    "version": "0.0.1",
+    "author": "Julian",
+    "load": {
+      "css": ["./0215/src/scss/main.scss"],
+      "js": ["./0215/src/js/*.js"]
+    },
+    "build": {
+      "css": "82.css",
+      "js": "app.js"
+    }
+  },
+  "0112": {
+    "id": "81",
+    "title": "",
+    "version": "0.0.1",
+    "author": "Julian",
+    "load": {
+      "css": ["./0112/src/scss/main.scss"],
+      "js": ["./0112/src/js/*.js"]
+    },
+    "build": {
+      "css": "81.css",
+      "js": "app.js"
+    }
+  }
 }

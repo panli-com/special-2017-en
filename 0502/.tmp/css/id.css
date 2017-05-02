@@ -1,0 +1,248 @@
+@charset "UTF-8";
+body {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Verdana, Helvetica, "simsun"; }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+li,
+ul,
+dd,
+dt,
+dl,
+form {
+  margin: 0;
+  padding: 0; }
+
+img {
+  border: none; }
+
+ul li {
+  list-style: none; }
+
+a {
+  color: #333; }
+
+a:hover {
+  color: #FF0000; }
+
+textarea {
+  resize: none; }
+
+input,
+a {
+  outline: none; }
+
+.span20 {
+  height: 20px;
+  line-height: 20px;
+  display: block; }
+
+.left {
+  float: left;
+  display: block; }
+
+.right {
+  float: right;
+  display: block; }
+
+.clear {
+  clear: both; }
+
+.Panli_overlay {
+  moz-opacity: 0.56;
+  /* Moz + FF 透明度20% */
+  opacity: 0.56;
+  /*支持CSS3的浏览器（FF 1.5也支持）透明度20%*/
+  filter: alpha(opacity=56);
+  /* IE 透明度20% */
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  height: 100%;
+  width: 100%;
+  _position: absolute;
+  z-index: 800;
+  display: none; }
+
+body {
+  font-family: 'Microsoft YaHei';
+  font-size: 12px; }
+
+#frame {
+  width: 100%;
+  background-color: #ff55aa;
+  overflow: hidden; }
+
+.header_banner {
+  width: 100%;
+  margin: 0 auto;
+  height: 600px; }
+
+.banner1 {
+  background: url(images/baby_banner_02.jpg) no-repeat center;
+  height: 100px; }
+
+.banner2 {
+  background: url(images/baby_banner_03.jpg) no-repeat center;
+  height: 100px; }
+
+.banner3 {
+  background: url(images/baby_banner_04.jpg) no-repeat center;
+  height: 100px; }
+
+.banner4 {
+  background: url(images/baby_banner_05.jpg) no-repeat center;
+  height: 100px; }
+
+.banner5 {
+  background: url(images/baby_banner_06.jpg) no-repeat center;
+  height: 100px; }
+
+.banner6 {
+  background: url(images/baby_banner_07.jpg) no-repeat center;
+  height: 100px; }
+
+#content_inner {
+  width: 960px;
+  margin: 0 auto;
+  padding: 30px 0 10px 0; }
+
+.Sports_content {
+  margin-bottom: 15px;
+  clear: both;
+  overflow: hidden; }
+
+.clothes_title {
+  background: url(images/baby_banner_10.gif) no-repeat center top;
+  height: 76px; }
+
+.Sports_more {
+  width: 80px;
+  height: 22px;
+  position: relative;
+  left: 880px;
+  top: 12px;
+  display: block; }
+
+.Sports_left {
+  float: left;
+  width: 340px; }
+
+.Sports_left li {
+  width: 330px;
+  height: 510px;
+  background-color: #d83586;
+  display: block; }
+
+.Sports_right {
+  float: right;
+  width: 620px; }
+
+.Sports_right li {
+  width: 200px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+  background-color: #d83586;
+  float: left;
+  display: block; }
+
+.pro_Price {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  height: 50px;
+  display: block; }
+
+.pro_Price a {
+  color: #fff;
+  text-decoration: none; }
+
+.pro_Price a:hover {
+  color: #fff;
+  text-decoration: underline; }
+
+.pro_title {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 12px;
+  height: 56px;
+  margin-bottom: 10px;
+  display: block; }
+
+.pro_title a {
+  color: #fff;
+  text-decoration: none; }
+
+.pro_title a:hover {
+  color: #fff;
+  text-decoration: underline; }
+
+.Sports_right .pro_right {
+  margin: 0;
+  float: right;
+  display: block; }
+
+.Shoes_title {
+  background: url(images/baby_banner_13.gif) no-repeat center top;
+  height: 70px; }
+
+.Shoes_left {
+  float: left;
+  width: 620px; }
+
+.Shoes_left li {
+  width: 200px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+  background-color: #d83586;
+  float: left;
+  display: block; }
+
+.Shoes_right {
+  float: right;
+  width: 330px; }
+
+.Shoes_right li {
+  width: 330px;
+  height: 510px;
+  background-color: #d83586;
+  display: block; }
+
+.Shoes_left .pro_right {
+  margin: 0;
+  float: left;
+  display: block; }
+
+.Toy_title {
+  background: url(images/baby_banner_15.gif) no-repeat center top;
+  height: 70px; }
+
+.Feeding_title {
+  background: url(images/baby_banner_17.gif) no-repeat center top;
+  height: 70px; }
+
+.Wash_title {
+  background: url(images/baby_banner_19.gif) no-repeat center top;
+  height: 70px; }
+
+.Others_title {
+  background: url(images/baby_banner_21.gif) no-repeat center top;
+  height: 70px; }
+
+.pro-sm ul {
+  overflow: hidden;
+  clear: both;
+  margin-right: -20px; }

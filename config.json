@@ -1,5 +1,19 @@
 {
-  "start": "0502",
+  "start": "0526",
+  "0526": {
+    "id": "85",
+    "title": "Beauty Tools",
+    "version": "0.0.1",
+    "author": "Julian",
+    "load": {
+      "css": ["./0526/src/scss/main.scss"],
+      "js": ["./0526/src/js/*.js"]
+    },
+    "build": {
+      "css": "85.css",
+      "js": "app.js"
+    }
+  },
   "0502": {
     "id": "84",
     "title": "Maternal Love",

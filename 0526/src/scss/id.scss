@@ -201,6 +201,16 @@ body {
 .pro_Price a {
   color: #333;
   text-decoration: none;
+  height: 18px;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 5px;
+  padding: 0 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  word-break: break-all;
 }
 
 .pro_Price a:hover {

@@ -45,7 +45,7 @@ function FloorAll(data, imgHead, id) {
 
     str += `<li>
             <a href="${proUrl}" target="_blank"><img src="${imgUrl}" width="185" height="185" title="${name}"></a>
-            <div class="pro_Price"><a href="${proUrl}" target="_blank">${name}</a><br />
+            <div class="pro_Price"><a href="${proUrl}" target="_blank">${name}</a>
               <span>Price：$${price}</span>
             </div>
             <div>
